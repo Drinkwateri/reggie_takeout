@@ -1,6 +1,9 @@
 server:
   port: 8080
 spring:
+  cache:
+    redis:
+      time-to-live: 1800000
   redis:
     host: 127.0.0.1
     port: 6379
